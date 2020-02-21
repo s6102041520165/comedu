@@ -187,7 +187,7 @@ class OrdersController extends Controller
             $model->checkin = '1';
             $model->update();
             $message = "โต๊ะ $diet ได้เช็คอิน จำนวน $guest ที่นั่ง ";
-            $this->notify_message($message);
+            //$this->notify_message($message);
         }
 
 
